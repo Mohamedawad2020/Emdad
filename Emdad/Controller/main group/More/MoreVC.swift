@@ -10,6 +10,13 @@ import UIKit
 
 class MoreVC: UIViewController {
 
+    @IBOutlet weak var termsAndConditionBtn: UIButton!
+    
+    @IBOutlet weak var aboutAppBtn: UIButton!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,14 +24,19 @@ class MoreVC: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func termsAndConditionsPressed(_ sender: Any) {
+        
+        performSegue(withIdentifier: "TermsandConditionsSegue", sender: self)
+        
     }
-    */
-
+    
+    @IBAction func aboutAppPressed(_ sender: Any) {
+        performSegue(withIdentifier: "AboutAppSegue", sender: self)
+        
+    }
+    
+    @IBAction func contactUsPressed(_ sender: UIButton) {
+        performSegue(withIdentifier: "ContactUsSegue", sender: self)
+    }
+    
 }

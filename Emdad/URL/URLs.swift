@@ -10,8 +10,10 @@ import Foundation
 import UIKit
 struct URLS {
     /// main url
-    private let main = ""
-//   private let loginUrl = main + ""
-//   private let registerUrl = main + ""
+   static let main = ""
+    /// login url
+   static let loginUrl = main + ""
+    /// register url
+   static let registerUrl = main + ""
     
 }

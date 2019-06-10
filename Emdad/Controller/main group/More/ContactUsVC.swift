@@ -10,21 +10,26 @@ import UIKit
 
 class ContactUsVC: UIViewController {
 
+    @IBOutlet weak var emailTF: UITextField!
+    @IBOutlet weak var userNameTF: UITextField!
+    @IBOutlet weak var messageTV: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        messageSetings()
+        
+    }
+    func messageSetings() {
+        let borderColor : UIColor = UIColor(red: 0.85, green: 0.85, blue: 0.85, alpha: 1.0)
+        messageTV.layer.borderWidth = 2
+        messageTV.layer.borderColor = borderColor.cgColor
+        messageTV.layer.cornerRadius = 0.5
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func sendBtnPressed(_ sender: UIButton) {
+        guard let username = userNameTF.text, !username.isEmpty else{return}
+        guard let email = emailTF.text, Validaton.isValidEmailAddress(emailAddressString: email) else {return}
+        guard let message = messageTV.text,!message.isEmpty else {return}
+        
     }
-    */
-
+    
 }

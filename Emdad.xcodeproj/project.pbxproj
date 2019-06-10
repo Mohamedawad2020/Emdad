@@ -7,21 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AB2A1D8D4740ECA8372EEF5 /* Pods_Emdad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3399DED106B8EB17D61EA7E7 /* Pods_Emdad.framework */; };
+		741A5A2D2292147400F1E8E9 /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741A5A2C2292147400F1E8E9 /* homeVC.swift */; };
+		741C30C3229346D00019C90C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C30C2229346D00019C90C /* Validation.swift */; };
+		741F25F12299F60C00763595 /* SecendTransportationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F25F02299F60C00763595 /* SecendTransportationVC.swift */; };
+		742035EE229400FF006B4E60 /* Extention+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742035ED229400FF006B4E60 /* Extention+UITextField.swift */; };
+		742A230B229FCAD200D5015A /* Terms_and_ConditionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A230A229FCAD200D5015A /* Terms_and_ConditionsVC.swift */; };
+		742A230D229FE8C100D5015A /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742A230C229FE8C100D5015A /* ContactUsVC.swift */; };
 		745219E122914DFD00EB30EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745219E022914DFD00EB30EE /* AppDelegate.swift */; };
-		745219E322914DFD00EB30EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745219E222914DFD00EB30EE /* ViewController.swift */; };
+		745219E322914DFD00EB30EE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745219E222914DFD00EB30EE /* LoginVC.swift */; };
 		745219E622914DFD00EB30EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745219E422914DFD00EB30EE /* Main.storyboard */; };
 		745219E822914DFE00EB30EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745219E722914DFE00EB30EE /* Assets.xcassets */; };
 		745219EB22914DFE00EB30EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745219E922914DFE00EB30EE /* LaunchScreen.storyboard */; };
+		74652D062292AD4D00E9A25C /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74652D052292AD4D00E9A25C /* SignUpVC.swift */; };
+		74652D092292AF1600E9A25C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74652D082292AF1600E9A25C /* API.swift */; };
+		74652D0D2292C0FC00E9A25C /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74652D0C2292C0FC00E9A25C /* URLs.swift */; };
+		747C5109229AB144005F7F91 /* ThirdTransportScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C5108229AB144005F7F91 /* ThirdTransportScreen.swift */; };
+		747C510B229ACE4C005F7F91 /* FourthTransportationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C510A229ACE4C005F7F91 /* FourthTransportationScreen.swift */; };
+		7498AA7E229585CC00B8ABAB /* MyaccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7498AA7D229585CC00B8ABAB /* MyaccountVC.swift */; };
+		74D47179229C972E00C1F64C /* fiveScreenTransportation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D47178229C972E00C1F64C /* fiveScreenTransportation.swift */; };
+		74E3BD65229EB3AF00D51927 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3BD64229EB3AF00D51927 /* MoreVC.swift */; };
+		74E3BD67229EB48000D51927 /* AboutAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E3BD66229EB48000D51927 /* AboutAppVC.swift */; };
+		74F286B022989CF500326883 /* firstTransportationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F286AF22989CF500326883 /* firstTransportationVC.swift */; };
+		FC01BACF22ABB7F50005FD28 /* Customcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC01BACD22ABB7F50005FD28 /* Customcell.swift */; };
+		FC01BAD022ABB7F50005FD28 /* Customcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC01BACE22ABB7F50005FD28 /* Customcell.xib */; };
+		FC01BAD222ABBFF70005FD28 /* OrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC01BAD122ABBFF70005FD28 /* OrderVC.swift */; };
+		FC01BAD622ABD4230005FD28 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC01BAD522ABD4230005FD28 /* UIViewX.swift */; };
+		FC01BAD822AD24A90005FD28 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC01BAD722AD24A90005FD28 /* UITextFieldX.swift */; };
+		FC01BADC22AD26860005FD28 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC01BADB22AD26860005FD28 /* UILabelX.swift */; };
+		FC01BAFE22AE37CF0005FD28 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC01BAFD22AE37CF0005FD28 /* String.swift */; };
+		FC01BB0222AE62760005FD28 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC01BB0122AE62760005FD28 /* UIButtonX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3399DED106B8EB17D61EA7E7 /* Pods_Emdad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emdad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		409AF54E9CC9CBA6A5168A03 /* Pods-Emdad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emdad.release.xcconfig"; path = "Target Support Files/Pods-Emdad/Pods-Emdad.release.xcconfig"; sourceTree = "<group>"; };
+		741A5A2C2292147400F1E8E9 /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
+		741C30C2229346D00019C90C /* Validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validation.swift; sourceTree = "<group>"; };
+		741F25F02299F60C00763595 /* SecendTransportationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecendTransportationVC.swift; sourceTree = "<group>"; };
+		742035ED229400FF006B4E60 /* Extention+UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention+UITextField.swift"; sourceTree = "<group>"; };
+		74234C372299410E00CF571E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		74234C382299410E00CF571E /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		742A230A229FCAD200D5015A /* Terms_and_ConditionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terms_and_ConditionsVC.swift; sourceTree = "<group>"; };
+		742A230C229FE8C100D5015A /* ContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
 		745219DD22914DFD00EB30EE /* Emdad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emdad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		745219E022914DFD00EB30EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		745219E222914DFD00EB30EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		745219E222914DFD00EB30EE /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = ../LoginVC.swift; sourceTree = "<group>"; };
 		745219E522914DFD00EB30EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		745219E722914DFE00EB30EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		745219EA22914DFE00EB30EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		745219EC22914DFE00EB30EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74652D052292AD4D00E9A25C /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		74652D082292AF1600E9A25C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		74652D0C2292C0FC00E9A25C /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		747C5108229AB144005F7F91 /* ThirdTransportScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTransportScreen.swift; sourceTree = "<group>"; };
+		747C510A229ACE4C005F7F91 /* FourthTransportationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTransportationScreen.swift; sourceTree = "<group>"; };
+		7498AA7D229585CC00B8ABAB /* MyaccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyaccountVC.swift; sourceTree = "<group>"; };
+		74D47178229C972E00C1F64C /* fiveScreenTransportation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiveScreenTransportation.swift; sourceTree = "<group>"; };
+		74E3BD64229EB3AF00D51927 /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		74E3BD66229EB48000D51927 /* AboutAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppVC.swift; sourceTree = "<group>"; };
+		74F286AF22989CF500326883 /* firstTransportationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTransportationVC.swift; sourceTree = "<group>"; };
+		DE5F96A9EFFE6802F1319809 /* Pods-Emdad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emdad.debug.xcconfig"; path = "Target Support Files/Pods-Emdad/Pods-Emdad.debug.xcconfig"; sourceTree = "<group>"; };
+		FC01BACD22ABB7F50005FD28 /* Customcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customcell.swift; sourceTree = "<group>"; };
+		FC01BACE22ABB7F50005FD28 /* Customcell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Customcell.xib; sourceTree = "<group>"; };
+		FC01BAD122ABBFF70005FD28 /* OrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVC.swift; sourceTree = "<group>"; };
+		FC01BAD522ABD4230005FD28 /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		FC01BAD722AD24A90005FD28 /* UITextFieldX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		FC01BADB22AD26860005FD28 /* UILabelX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		FC01BAFD22AE37CF0005FD28 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		FC01BB0122AE62760005FD28 /* UIButtonX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +83,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB2A1D8D4740ECA8372EEF5 /* Pods_Emdad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AE5EBA5735AA0D36953095F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3399DED106B8EB17D61EA7E7 /* Pods_Emdad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		741C30C12293469D0019C90C /* Check Validation */ = {
+			isa = PBXGroup;
+			children = (
+				741C30C2229346D00019C90C /* Validation.swift */,
+			);
+			path = "Check Validation";
+			sourceTree = "<group>";
+		};
+		742035EB229400C4006B4E60 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				742035ED229400FF006B4E60 /* Extention+UITextField.swift */,
+				FC01BAD522ABD4230005FD28 /* UIViewX.swift */,
+				FC01BAD722AD24A90005FD28 /* UITextFieldX.swift */,
+				FC01BADB22AD26860005FD28 /* UILabelX.swift */,
+				FC01BAFD22AE37CF0005FD28 /* String.swift */,
+				FC01BB0122AE62760005FD28 /* UIButtonX.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
 		745219D422914DFD00EB30EE = {
 			isa = PBXGroup;
 			children = (
 				745219DF22914DFD00EB30EE /* Emdad */,
 				745219DE22914DFD00EB30EE /* Products */,
+				DF4149E11298234A0EDAEB22 /* Pods */,
+				3AE5EBA5735AA0D36953095F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +140,162 @@
 		745219DF22914DFD00EB30EE /* Emdad */ = {
 			isa = PBXGroup;
 			children = (
-				745219E022914DFD00EB30EE /* AppDelegate.swift */,
-				745219E222914DFD00EB30EE /* ViewController.swift */,
+				FC01BAD322ABD3ED0005FD28 /* helperClasses */,
+				742035EB229400C4006B4E60 /* Extentions */,
+				741C30C12293469D0019C90C /* Check Validation */,
+				74652D0E2292C26B00E9A25C /* URL */,
+				74652D072292AEFC00E9A25C /* APIs */,
+				74652D002292AC8900E9A25C /* Supporting Files */,
+				74652CFF2292AC6B00E9A25C /* Controller */,
+				74652CFE2292AC5F00E9A25C /* View */,
+				74652CFD2292AC3B00E9A25C /* Model */,
+			);
+			path = Emdad;
+			sourceTree = "<group>";
+		};
+		74652CFD2292AC3B00E9A25C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74652CFE2292AC5F00E9A25C /* View */ = {
+			isa = PBXGroup;
+			children = (
 				745219E422914DFD00EB30EE /* Main.storyboard */,
 				745219E722914DFE00EB30EE /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74652CFF2292AC6B00E9A25C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				745219E022914DFD00EB30EE /* AppDelegate.swift */,
+				74652D012292ACED00E9A25C /* Login & Register */,
+				7498AA7C2295859700B8ABAB /* main group */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		74652D002292AC8900E9A25C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				745219E922914DFE00EB30EE /* LaunchScreen.storyboard */,
 				745219EC22914DFE00EB30EE /* Info.plist */,
 			);
-			path = Emdad;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74652D012292ACED00E9A25C /* Login & Register */ = {
+			isa = PBXGroup;
+			children = (
+				745219E222914DFD00EB30EE /* LoginVC.swift */,
+				74652D052292AD4D00E9A25C /* SignUpVC.swift */,
+			);
+			path = "Login & Register";
+			sourceTree = "<group>";
+		};
+		74652D072292AEFC00E9A25C /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				74652D082292AF1600E9A25C /* API.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		74652D0E2292C26B00E9A25C /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				74652D0C2292C0FC00E9A25C /* URLs.swift */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
+		7498AA7C2295859700B8ABAB /* main group */ = {
+			isa = PBXGroup;
+			children = (
+				74E3BD63229EB33900D51927 /* Orders */,
+				74E3BD62229EB32E00D51927 /* More */,
+				74E3BD61229EB31C00D51927 /* Account */,
+				74F286AD22989C9F00326883 /* home */,
+			);
+			path = "main group";
+			sourceTree = "<group>";
+		};
+		74E3BD61229EB31C00D51927 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				7498AA7D229585CC00B8ABAB /* MyaccountVC.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		74E3BD62229EB32E00D51927 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				74E3BD64229EB3AF00D51927 /* MoreVC.swift */,
+				74E3BD66229EB48000D51927 /* AboutAppVC.swift */,
+				742A230A229FCAD200D5015A /* Terms_and_ConditionsVC.swift */,
+				742A230C229FE8C100D5015A /* ContactUsVC.swift */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		74E3BD63229EB33900D51927 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				FC01BACC22ABB7C30005FD28 /* CustomCell */,
+				FC01BAD122ABBFF70005FD28 /* OrderVC.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		74F286AD22989C9F00326883 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				741A5A2C2292147400F1E8E9 /* homeVC.swift */,
+				74F286AE22989CAC00326883 /* ShippingAndTransportation */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		74F286AE22989CAC00326883 /* ShippingAndTransportation */ = {
+			isa = PBXGroup;
+			children = (
+				74F286AF22989CF500326883 /* firstTransportationVC.swift */,
+				741F25F02299F60C00763595 /* SecendTransportationVC.swift */,
+				747C5108229AB144005F7F91 /* ThirdTransportScreen.swift */,
+				747C510A229ACE4C005F7F91 /* FourthTransportationScreen.swift */,
+				74D47178229C972E00C1F64C /* fiveScreenTransportation.swift */,
+			);
+			path = ShippingAndTransportation;
+			sourceTree = "<group>";
+		};
+		DF4149E11298234A0EDAEB22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE5F96A9EFFE6802F1319809 /* Pods-Emdad.debug.xcconfig */,
+				409AF54E9CC9CBA6A5168A03 /* Pods-Emdad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC01BACC22ABB7C30005FD28 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				FC01BACD22ABB7F50005FD28 /* Customcell.swift */,
+				FC01BACE22ABB7F50005FD28 /* Customcell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		FC01BAD322ABD3ED0005FD28 /* helperClasses */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = helperClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 745219EF22914DFE00EB30EE /* Build configuration list for PBXNativeTarget "Emdad" */;
 			buildPhases = (
+				FEF45E24BF3BD121DA60F7B0 /* [CP] Check Pods Manifest.lock */,
 				745219D922914DFD00EB30EE /* Sources */,
 				745219DA22914DFD00EB30EE /* Frameworks */,
 				745219DB22914DFD00EB30EE /* Resources */,
+				D91210FA5C82410D3797F163 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +332,7 @@
 				TargetAttributes = {
 					745219DC22914DFD00EB30EE = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -106,6 +343,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 745219D422914DFD00EB30EE;
 			productRefGroup = 745219DE22914DFD00EB30EE /* Products */;
@@ -124,19 +362,112 @@
 			files = (
 				745219EB22914DFE00EB30EE /* LaunchScreen.storyboard in Resources */,
 				745219E822914DFE00EB30EE /* Assets.xcassets in Resources */,
+				FC01BAD022ABB7F50005FD28 /* Customcell.xib in Resources */,
 				745219E622914DFD00EB30EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D91210FA5C82410D3797F163 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Emdad/Pods-Emdad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/FlagPhoneNumber/FlagPhoneNumber.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageSlideshow/ImageSlideshow.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlagPhoneNumber.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageSlideshow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Emdad/Pods-Emdad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF45E24BF3BD121DA60F7B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Emdad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		745219D922914DFD00EB30EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				745219E322914DFD00EB30EE /* ViewController.swift in Sources */,
+				74E3BD67229EB48000D51927 /* AboutAppVC.swift in Sources */,
+				745219E322914DFD00EB30EE /* LoginVC.swift in Sources */,
+				747C5109229AB144005F7F91 /* ThirdTransportScreen.swift in Sources */,
+				747C510B229ACE4C005F7F91 /* FourthTransportationScreen.swift in Sources */,
+				74652D0D2292C0FC00E9A25C /* URLs.swift in Sources */,
+				FC01BAD622ABD4230005FD28 /* UIViewX.swift in Sources */,
+				FC01BAFE22AE37CF0005FD28 /* String.swift in Sources */,
+				742A230D229FE8C100D5015A /* ContactUsVC.swift in Sources */,
+				74E3BD65229EB3AF00D51927 /* MoreVC.swift in Sources */,
+				FC01BAD822AD24A90005FD28 /* UITextFieldX.swift in Sources */,
+				741A5A2D2292147400F1E8E9 /* homeVC.swift in Sources */,
+				FC01BB0222AE62760005FD28 /* UIButtonX.swift in Sources */,
+				74652D062292AD4D00E9A25C /* SignUpVC.swift in Sources */,
+				FC01BAD222ABBFF70005FD28 /* OrderVC.swift in Sources */,
+				7498AA7E229585CC00B8ABAB /* MyaccountVC.swift in Sources */,
+				74D47179229C972E00C1F64C /* fiveScreenTransportation.swift in Sources */,
+				741F25F12299F60C00763595 /* SecendTransportationVC.swift in Sources */,
 				745219E122914DFD00EB30EE /* AppDelegate.swift in Sources */,
+				74652D092292AF1600E9A25C /* API.swift in Sources */,
+				742035EE229400FF006B4E60 /* Extention+UITextField.swift in Sources */,
+				741C30C3229346D00019C90C /* Validation.swift in Sources */,
+				FC01BADC22AD26860005FD28 /* UILabelX.swift in Sources */,
+				FC01BACF22ABB7F50005FD28 /* Customcell.swift in Sources */,
+				742A230B229FCAD200D5015A /* Terms_and_ConditionsVC.swift in Sources */,
+				74F286B022989CF500326883 /* firstTransportationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +478,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				745219E522914DFD00EB30EE /* Base */,
+				74234C382299410E00CF571E /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -155,6 +487,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				745219EA22914DFE00EB30EE /* Base */,
+				74234C372299410E00CF571E /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,6 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +561,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -280,34 +615,38 @@
 		};
 		745219F022914DFE00EB30EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE5F96A9EFFE6802F1319809 /* Pods-Emdad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Emdad/Info.plist;
+				DEVELOPMENT_TEAM = ZYXWKAWWZ4;
+				INFOPLIST_FILE = "$(SRCROOT)/Emdad/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.creative.Emdad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		745219F122914DFE00EB30EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409AF54E9CC9CBA6A5168A03 /* Pods-Emdad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Emdad/Info.plist;
+				DEVELOPMENT_TEAM = ZYXWKAWWZ4;
+				INFOPLIST_FILE = "$(SRCROOT)/Emdad/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.creative.Emdad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

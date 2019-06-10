@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
         return true
     }
     
@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let rootVC = launchVC.instantiateViewController(withIdentifier: "SplashScreenIdentifire")
         window?.rootViewController = rootVC
         window?.makeKeyAndVisible()
-        Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(dismissSplash), userInfo: nil, repeats: false)
+        Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(dismissSplash), userInfo: nil, repeats: false)
         
     }
     @objc func dismissSplash(){

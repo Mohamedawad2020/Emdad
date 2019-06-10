@@ -10,6 +10,11 @@ import UIKit
 
 class Customcell: UITableViewCell {
 
+   
+    @IBOutlet weak var serviceTypeLb: UILabel!
+    
+    @IBOutlet weak var serviceDescriptionLb: UILabel!
+    @IBOutlet weak var serviceTimeLb: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -18,7 +23,14 @@ class Customcell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
+      
     }
+    
+    func customInit(type:String,description:String,orderTime:String){
+        self.serviceTypeLb.text = type
+        self.serviceDescriptionLb.text = description
+        self.serviceTimeLb.text = orderTime
+    }
+    
     
 }
